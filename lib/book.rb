@@ -1,7 +1,7 @@
 class Book
   attr_reader :title
 
-  def initialized(title)
+  def initialize(title)
     @title = title
   end
 end
